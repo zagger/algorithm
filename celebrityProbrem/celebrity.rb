@@ -1,7 +1,7 @@
 
 class SolvingCelebrity
 	def solving n, famous_name
-		famous_person = Person.new 'jack', 'myself'
+		famous_person = Person.new famous_name, 'myself'
 		celebrity = Celebrity.new n, famous_person
 		celebrity.start
 	end
