@@ -1,0 +1,15 @@
+
+a = [1,2,3]
+
+result = Array.new(a.size) {[]}
+
+p result
+
+result[0] << 10
+p result
+exit
+a.each do |i|
+	result[i] << i
+end
+
+p result
